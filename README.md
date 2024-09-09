@@ -4,6 +4,7 @@
 This Streamlit application allows users to manage an SQLite database using natural language queries. It leverages the Gemini API to convert natural language into SQL queries, providing an intuitive interface for database operations.
 ![proc](https://github.com/user-attachments/assets/b72ec237-3f74-4625-81ba-67bb5b577fde)
 ![proc2](https://github.com/user-attachments/assets/37492718-52ed-4fef-b37c-07ab10f81ca9)
+![llll](https://github.com/user-attachments/assets/5cd5dc4d-5abe-4f1c-aed1-d1a9526d5ccd)
 
 ## Features
 # This app consist of SQL Database Manager
