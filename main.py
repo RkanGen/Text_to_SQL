@@ -31,11 +31,11 @@ def create_sample_database():
     
     # Insert sample data
     sample_data = [
-        (1, 'John Doe', 'IT', 75000),
+        (1, 'Roman Reigns', 'WWE', 1275000),
         (2, 'Jane Smith', 'HR', 65000),
-        (3, 'Mike Johnson', 'Sales', 80000),
-        (4, 'Emily Brown', 'Marketing', 70000),
-        (5, 'David Lee', 'IT', 78000)
+        (3, 'Mike Johnson', 'Sales', 180000),
+        (4, 'Chris Brown', 'Singer', 370000),
+        (5, 'Jackie Chan', 'Actor', 978000)
     ]
     
     cursor.executemany('INSERT OR REPLACE INTO employees VALUES (?, ?, ?, ?)', sample_data)
@@ -207,6 +207,7 @@ with col2:
 st.markdown("""
 <div class="footer">
     <p>About: This app allows you to manage an SQLite database using natural language queries. You can select, insert, update, or delete data.</p>
-    <p>Created with ❤️ using Streamlit, SQLite, and Gemini API</p>
+    <br>
+    <p>Created  with  Streamlit and Gemini API</p>
 </div>
 """, unsafe_allow_html=True)
